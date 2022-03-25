@@ -1,0 +1,117 @@
+*{margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;}
+
+:root{--verde: #00754a;}
+
+header{padding: 20px 0;}
+
+.header-flex{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;}
+
+header img{width: 5em;
+    height: 5em;}
+
+nav a{margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: black;}
+
+nav a:hover{background-color: var(--verde);
+    color: white;}
+
+
+
+
+
+.div-flex{display: flex;
+    justify-content: space-between;}
+
+
+
+
+
+.sec-1{width: 40%;
+    margin-left: 69px;
+    margin-top: 70px;}
+
+.sec-1 h1{font-size: 3em;}
+
+section h1 strong{color: var(--verde);
+    font-size: 1.3em;}
+
+.sec-1 p{padding: 10px 0;
+    font-size: 1.1em;}
+
+.sec-1 button{margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--verde);
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;}
+
+
+
+
+
+.div-coffee{ width: 30%; 
+    height: 31em;
+    display: flex;
+    flex-direction: row-reverse;}
+
+.border-radius{background-color: var(--verde);
+    width: 50em;
+    height: 50em;
+    align-self: flex-end;
+    position: absolute;
+    top: 185px;
+    right: -207px;
+    border-top-left-radius: 160%;
+    border-bottom-left-radius: 50%;}
+
+.div-coffee img{width: 20em;
+    height: 27em;
+    position: absolute;
+    right: 120px;}
+
+
+
+
+
+.sec-2{width: 50%;
+    position: relative;
+    bottom: 100px;
+    left: 535px;}
+
+.sec-2-flex{display: flex;
+    justify-content: space-between;
+    width: 37%;}
+
+.sec-2-flex #coffee-1{width: 4em;
+    height: 6.5em;
+    margin: 0;}
+
+.sec-2-flex #coffee-2{width: 3.5em;
+    height: 6em;
+    margin: 0 30px;}
+
+.sec-2-flex #coffee-3{width: 3.5em;
+    height: 6em;
+    margin-left: 10px;}
+
+
+
+
+
+
+
+
+
+
